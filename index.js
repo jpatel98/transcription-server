@@ -54,7 +54,7 @@ app.post("/transcript", upload.single("audio"), async (req, res) => {
 
   const uploadDataArr = readData();
 
-  console.log(url);
+  console.log("S3 Upload Success");
 
   const assembly = axios.create({
     baseURL: "https://api.assemblyai.com/v2",
@@ -78,9 +78,7 @@ app.post("/transcript", upload.single("audio"), async (req, res) => {
       if (transcriptStatus !== "completed") {
         console.log(`Transcript Status: ${transcriptStatus}`)
       } else if (transcriptStatus === "completed") {
-        console.log("\nTranscription completed!\n")
-        let transcriptText = transcript.data.text
-        console.log(`Your transcribed text:\n\n${transcriptText}`)
+        console.log(`Transcript ID:${transcript.data.id} is ready`)
         res.status(200).send(JSON.stringify(transcript.data));
         clearInterval(checkCompletionInterval)
       }

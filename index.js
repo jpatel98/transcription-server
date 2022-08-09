@@ -39,7 +39,7 @@ app.get('/',(req, res) => {
 })
 
 // Single file Upload to AWS S3 bucket
-app.post("/transcript", upload.single("audio"), async (req, res) => {
+app.post("https://transcript-server.herokuapp.com/transcript", upload.single("audio"), async (req, res) => {
   // console.log(req.body);  
   // uploading to AWS S3  
   const result = await uploadFile(req.file);  // Calling above function in s3.js

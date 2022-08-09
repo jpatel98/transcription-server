@@ -32,9 +32,11 @@ const readData = () => {
   return tempDataParsed;
 }
 
-
-
 const s3 = new S3({  region,  accessKeyId,  secretAccessKey,});
+
+app.get('/',(req, res) => {
+  res.send("Fired up 🚀🚀🚀🚀")
+})
 
 // Single file Upload to AWS S3 bucket
 app.post("/transcript", upload.single("audio"), async (req, res) => {

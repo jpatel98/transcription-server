@@ -89,7 +89,7 @@ app.post("/transcript", upload.single("audio"), async (req, res) => {
 
 const PORT = process.env.PORT || 8080;
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
     console.log(`Server fired up on port ${PORT} 🫡`);
     console.log("Stop with Ctrl+C");
 });

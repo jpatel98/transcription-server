@@ -11,7 +11,7 @@ const cors = require('cors');
 const S3 = require("aws-sdk/clients/s3");
 const { v4: uuidv4 } = require('uuid');
 const { get } = require("http");
-const refreshInterval = 30000;
+const refreshInterval = 15000;
 
 // env variables
 const bucketName = process.env.AWS_BUCKET_NAME;

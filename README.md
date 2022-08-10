@@ -1,8 +1,6 @@
 
 # Scribe11.xyz - Server
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ed2189ea-4926-404b-bc81-0d155860732f/deploy-status?branch=develop)](https://app.netlify.com/sites/scribe11/deploys)
-
 Scribe11.xyz uses a machine learning API to convert user inputted audio to text, making it easier for 1) journalists to transcribe interview quotes, press conferences etc 2) students to transcribe long tutorials, lectures etc and have them for notes 3) office teams to make meeting notes for members who may have missed the meeting.
 ## BackEnd Stack
 

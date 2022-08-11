@@ -20,7 +20,7 @@ Scribe11.xyz uses a machine learning API to convert user inputted audio to text,
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 ## Environment Variables
 
-To locally run this project, you will need to add the following environment variables to your .env file and configure your AWS S3 bucket.
+To locally run this project, you will need to add the following env variables and configure your AWS S3 bucket.
 [Here is a good walkthrough](https://javascript.plainenglish.io/file-upload-to-amazon-s3-using-node-js-42757c6a39e9) of the process.
 
 `AWS_BUCKET_NAME`

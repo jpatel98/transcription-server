@@ -18,22 +18,6 @@ Scribe11.xyz uses a machine learning API to convert user inputted audio to text,
 ![Auth0](https://img.shields.io/badge/Auth0-white?style=for-the-badge)
 
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-## Environment Variables
-
-To locally run this project, you will need to add the following env variables and configure your AWS S3 bucket.
-[Here is a good walkthrough](https://javascript.plainenglish.io/file-upload-to-amazon-s3-using-node-js-42757c6a39e9) of the process.
-
-`AWS_BUCKET_NAME`
-
-`AWS_BUCKET_REGION`
-
-`AWS_ARN`
-
-`AWS_ACCESS_KEY`
-
-`AWS_SECRET_KEY`
-
-`ASSEMBLY_API_KEY`
 ## Run Locally
 
 Clone the project
@@ -53,6 +37,21 @@ Install dependencies
 ```bash
   npm install
 ```
+### Environment Variables
+To locally run this project, you will need to add the following env variables and configure your AWS S3 bucket.
+[Here is a good walkthrough](https://javascript.plainenglish.io/file-upload-to-amazon-s3-using-node-js-42757c6a39e9) to configure your S3 bucket.
+
+`AWS_BUCKET_NAME`
+
+`AWS_BUCKET_REGION`
+
+`AWS_ARN`
+
+`AWS_ACCESS_KEY`
+
+`AWS_SECRET_KEY`
+
+`ASSEMBLY_API_KEY`
 
 Start the app
 

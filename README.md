@@ -2,7 +2,7 @@
 # Scribe11.xyz - Server
 
 Scribe11.xyz uses a machine learning API to convert user inputted audio to text, making it easier for 1) journalists to transcribe interview quotes, press conferences etc 2) students to transcribe long tutorials, lectures etc and have them for notes 3) office teams to make meeting notes for members who may have missed the meeting.
-## BackEnd Stack
+## Backend Stack
 
 
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)

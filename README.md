@@ -1,7 +1,7 @@
 
 # Scribe11.xyz - Server
 
-Scribe11.xyz uses Assembly AI's API to convert user inputted audio to text, making it easier for everyone from journalists to students to transcribe speech and make notes.
+Scribe11.xyz uses [Assembly AI's](https://www.assemblyai.com/) API to convert user inputted audio to text, making it easier for everyone from journalists to students to transcribe speech and make notes.
 
 ## Backend Stack
 

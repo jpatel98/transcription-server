@@ -1,7 +1,7 @@
 
-# Scribe11.xyz - Server
+# Transcription App - Server
 
-Scribe11.xyz uses [Assembly AI's](https://www.assemblyai.com/) API to convert user inputted audio to text, making it easier for everyone from journalists to students to transcribe speech and make notes.
+The app uses [Assembly AI's](https://www.assemblyai.com/) API to convert user inputted audio to text, making it easier for everyone from journalists to students to transcribe speech and make notes.
 
 ## Backend Stack
 
@@ -90,10 +90,3 @@ Lessons learned while building this project.
 
 - Add realtime transcription feature.
 
-
-
-## Deployment
-You can check the live app at - https://scribe11.xyz/ 
-
-**NOTE**: A bug is preventing users from uploading files longer than 30 seconds. Please refrain from uploading files longer than 30 seconds until the issue resolves. 
-You may use files from [this repository.](https://github.com/jpatel98/scribe11-test-audio)

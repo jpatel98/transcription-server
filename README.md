@@ -3,6 +3,7 @@
 
 The app uses [Assembly AI's](https://www.assemblyai.com/) API to convert user inputted audio to text, making it easier for everyone from journalists to students to transcribe speech and make notes.
 
+*NOTE: This app needs the [transcription-client](https://github.com/jpatel98/transcription-client) to run in parallel for full functionality*
 ## Backend Stack
 
 

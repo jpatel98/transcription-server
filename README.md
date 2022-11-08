@@ -39,6 +39,19 @@ Install dependencies
 ```bash
   npm install
 ```
+
+Start the app
+
+```bash
+  npm run start
+```
+
+Run in a dev environment
+
+```bash
+  npm run dev
+```
+
 ### Environment Variables
 To locally run this project, you will need to add the following env variables and configure your AWS S3 bucket.
 [Here is a good walkthrough](https://javascript.plainenglish.io/file-upload-to-amazon-s3-using-node-js-42757c6a39e9) to configure your S3 bucket.
@@ -55,23 +68,6 @@ To locally run this project, you will need to add the following env variables an
 
 `ASSEMBLY_API_KEY`
 
-Start the app
-
-```bash
-  npm run start
-```
-
-Run in a dev environment
-
-```bash
-  npm run dev
-```
-
-Make a prod build
-
-```bash
-  npm run build
-```
 ## Lessons Learned
 
 Lessons learned while building this project.
@@ -84,10 +80,7 @@ Lessons learned while building this project.
 ## Roadmap
 
 - Connect to a database and allow users to save their transcripts.
-
 - Enable video transcription and implement a video player on screen.
-
 - Create a transcript editor using Draft.js.
-
 - Add realtime transcription feature.
 
